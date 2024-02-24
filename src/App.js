@@ -26,11 +26,6 @@ function App() {
         window.location.href =
             "https://drive.google.com/drive/folders/1N5lutZuH6VhU97oagVjpeZNt9hnVNGh6?usp=sharing";
     };
-
-    const GoToContact = () => {
-        window.location.href = "#contact";
-    };
-
     const [titletext, setTitleText] = useState("H");
 
     useEffect(() => {
@@ -121,7 +116,12 @@ function App() {
                             </p>
                         </p>
                         <div className="mainbtncon">
-                            <button className="mainbtn" onClick={GoToContact}>
+                            <button
+                                className="mainbtn"
+                                onClick={() => {
+                                    scrollToElement("contact");
+                                }}
+                            >
                                 <img
                                     src={ContactIcon}
                                     alt="Resume"
