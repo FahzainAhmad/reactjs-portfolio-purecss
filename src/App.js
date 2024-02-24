@@ -24,7 +24,7 @@ function App() {
 
     const GoToResume = () => {
         window.location.href =
-            "https://drive.google.com/drive/folders/1N5lutZuH6VhU97oagVjpeZNt9hnVNGh6?usp=sharing";
+            "https://drive.google.com/file/d/1ZSZ_3qPzatVQCaYaZb6aqtPm-HEO5cks/view?usp=sharing";
     };
     const [titletext, setTitleText] = useState("H");
 

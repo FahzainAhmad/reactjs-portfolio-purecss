@@ -13,7 +13,8 @@ const Projects = () => {
                     frontdesc="ReactJS portfolio with advanced CSS, responsive design, and modular components for a polished user experience."
                     backdesc="Sleek ReactJS portfolio featuring cutting-edge CSS and modular components for a seamless, responsive showcase of skills and projects."
                     tags={["ReactJS", "Responsive"]}
-                    git="https://github.com/FahzainAhmad/tictactoe-realtime-nodejs-express-reactjs-socketio"
+                    git="https://github.com/FahzainAhmad/reactjs-portfolio-purecss"
+                    live="https://iamfahzain.vercel.app"
                 />
                 <Procard
                     title="Realtime TicTacToe"

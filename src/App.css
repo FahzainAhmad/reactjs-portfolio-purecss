@@ -396,7 +396,7 @@
 }
 
 .Skills > h1 {
-    font-size: 0.9em;
+    font-size: 1.1em;
     text-align: center;
     animation: hoverclick 2s infinite;
 }
@@ -789,7 +789,7 @@
     margin-bottom: 1em;
     color: white;
     margin: 0px;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     text-align: center;
     animation: hoverclick 2s infinite;
 }
