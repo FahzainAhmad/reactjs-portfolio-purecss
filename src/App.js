@@ -24,7 +24,7 @@ function App() {
 
     const GoToResume = () => {
         window.location.href =
-            "https://drive.google.com/file/d/1ZSZ_3qPzatVQCaYaZb6aqtPm-HEO5cks/view?usp=sharing";
+            "https://drive.google.com/file/d/19fF9w7czfAFwQh36t6NsQMSYN3OnQUun/view?usp=sharing";
     };
     const [titletext, setTitleText] = useState("H");
 
@@ -103,16 +103,18 @@ function App() {
                             <span className="typewritercursor">|</span>
                         </p>
                         <p className="titledesc">
-                            Dedicated 3rd-year student with a dynamic skill set.
-                            Experienced in utilizing
+                            Experienced professional with a dynamic skill set,
+                            experienced at utilizing
                             <span className="swappingtext"></span>.
                             <p>
                                 Proven in translating creative concepts into
                                 visually appealing web solutions, showcasing
                                 strong problem-solving skills and attention to
                                 detail. Successfully applied expertise during a
-                                3-month work experience, contributing to
-                                innovative and responsive web designs.
+                                &nbsp;
+                                <span className="xp">1 Year</span> of work
+                                experience , contributing to innovative and
+                                responsive web designs.
                             </p>
                         </p>
                         <div className="mainbtncon">

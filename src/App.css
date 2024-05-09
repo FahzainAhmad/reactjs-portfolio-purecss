@@ -808,6 +808,11 @@
     display: none;
 }
 
+.xp {
+    color: #2986ff;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 768px) {
     .Home {
         padding-inline: 5%;
